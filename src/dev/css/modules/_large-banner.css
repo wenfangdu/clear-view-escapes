@@ -1,0 +1,32 @@
+.large-banner {
+  border-bottom: 10px solid var(--mainBlue);
+  position: relative;
+  &__img {
+    display: block;
+  }
+  &__text-content {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    /* background-color: var(--bc2); */
+    height: 200px;
+  }
+  &__title {
+    font-weight: 300;
+    color: var(--mainBlue);
+    font-size: 38.4px;
+  }
+  &__subtitle {
+    font-weight: 300;
+    color: var(--mainBlue);
+    font-size: 24px;
+  }
+  &__description {
+    color: #ffffff;
+    font-size: 17.6px;
+    font-weight: 100;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+  }
+}

@@ -1,0 +1,58 @@
+.site-header {
+  padding: 10px 0;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  /* background-color: var(--bc1); */
+  &__menu-icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 10;
+    /* background-color: var(--bc2); */
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 20px;
+      height: 3px;
+      background-color: #ffffff;
+      transform-origin: 0 0;
+      transition: all .3s ease-out;
+    }
+    &__middle {
+      position: absolute;
+      top: 8px;
+      left: 0;
+      width: 20px;
+      height: 3px;
+      background-color: #ffffff;
+      transition: all .3s ease-out;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 20px;
+      height: 3px;
+      background-color: #ffffff;
+      transform-origin: 0 100%;
+      transition: all .3s ease-out;
+    }
+  }
+  &__logo {
+    background-color: var(--mainBlue);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) scale(.8);
+    transform-origin: 50% 0;
+    padding: 25px 36px;
+    transition: all .3s ease-out;
+    &__text {
+      text-indent: -9999px;
+    }
+  }
+}

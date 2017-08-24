@@ -21,7 +21,7 @@ gulp.task("watch", function() {
   })
 })
 gulp.task("cssInject", ["cssProcess"], function() {
-  return gulp.src("src/asssets/css/main.css").pipe(browserSync.stream())
+  return gulp.src("src/assets/css/main.css").pipe(browserSync.stream())
 })
 gulp.task("jsReload", ["jsProcess"], function() {
   browserSync.reload()

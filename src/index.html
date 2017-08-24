@@ -13,7 +13,33 @@
 </head>
 
 <body>
-
+  <header class="site-header">
+    <div class="wrapper">
+      <div class="site-header__menu-icon">
+        <div class="site-header__menu-icon__middle"></div>
+      </div>
+      <div class="site-header__logo">
+        <div class="site-header__logo__text icon icon--clear-view-escapes">Clear View Escapes</div>
+      </div>
+    </div>
+  </header>
+  <div class="large-banner">
+    <picture>
+      <source srcset="assets/img/hero--large.jpg 1920w, assets/img/hero--large-hi-dpi.jpg 3840w" media="(min-width:1380px)">
+      <source srcset="assets/img/hero--medium.jpg 1380w, assets/img/hero--medium-hi-dpi.jpg 2760w" media="(min-width:990px)">
+      <source srcset="assets/img/hero--small.jpg 990w, assets/img/hero--small-hi-dpi.jpg 1980w" media="(min-width:640px)">
+      <img srcset="assets/img/hero--smaller.jpg 640w, assets/img/hero--smaller-hi-dpi.jpg 1280w" alt="Costal view of ocean and mountains"
+        class="large-banner__img">
+    </picture>
+    <div class="large-banner__text-content">
+      <div class="wrapper">
+        <div class="large-banner__title">Your clarity</div>
+        <div class="large-banner__subtitle">One trip away</div>
+        <p class="large-banner__description">We create soul restoring journeys that inspire you to be you.</p>
+        <p><a href="#" class="btn btn--orange btn--large">Get Started Today</a></p>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>

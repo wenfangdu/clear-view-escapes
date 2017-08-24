@@ -1,0 +1,13 @@
+.btn {
+  background-color: var(--mainBlue);
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 19.2px;
+  display: inline-block;
+  &--orange {
+    background-color: var(--mainOrange);
+  }
+  &--large {
+    padding: 17.6px 30.4px;
+  }
+}

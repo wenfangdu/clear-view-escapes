@@ -9,5 +9,5 @@ img {
   box-sizing: border-box;
 }
 a {
-  c: ;
+  color: var(--mainOrange);
 }
