@@ -1,0 +1,11 @@
+.section-title {
+  font-size: 40.8px;
+  font-weight: 300;
+  text-align: center;
+  & strong {
+    font-weight: 500;
+  }
+  &__icon {
+    margin: auto auto 9.6px auto;
+  }
+}

@@ -1,0 +1,13 @@
+.feature-item {
+  padding-bottom: 40px;
+  &__icon {
+    margin: 0 auto;
+  }
+  &__title {
+    font-size: 25.6px;
+    font-weight: 300;
+    margin-top: 11.2px;
+    margin-bottom: 12.8px;
+    text-align: center;
+  }
+}
