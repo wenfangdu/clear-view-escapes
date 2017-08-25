@@ -6,4 +6,17 @@
   margin-left: auto;
   margin-right: auto;
   /* background-color: var(--bc3); */
+  & .wrapper {
+    padding-left: 0;
+    padding-right: 0;
+    /* width: 100%;
+    height: 100px;
+    background-color: var(--bc4); */
+  }
+  &--medium {
+    max-width: 976px;
+  }
+  &--b-margin {
+    margin-bottom: 16px;
+  }
 }
