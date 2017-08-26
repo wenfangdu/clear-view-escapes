@@ -34,7 +34,8 @@
     "webpack": "^3.5.5"
   },
   "dependencies": {
+    "jquery": "^3.2.1",
     "normalize.css": "^7.0.0",
-    "vue": "^2.4.2"
+    "waypoints": "^4.0.1"
   }
 }

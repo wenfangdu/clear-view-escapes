@@ -22,7 +22,7 @@ module.exports = {
   },
   resolve: {
     alias: {
-      vue: "vue/dist/vue.js"
+      waypoints: "waypoints/lib/noframework.waypoints"
     }
   }
 }
