@@ -13,13 +13,23 @@
 </head>
 
 <body>
-  <header class="site-header">
+  <header class="site-header" id="site-header" :class="siteHeader">
     <div class="wrapper">
-      <div class="site-header__menu-icon">
+      <div class="site-header__menu-icon" :class="menuIcon" @click="toggleMenu">
         <div class="site-header__menu-icon__middle"></div>
       </div>
       <div class="site-header__logo">
         <div class="site-header__logo__text icon icon--clear-view-escapes">Clear View Escapes</div>
+      </div>
+      <div class="site-header__menu-content" :class="menuContent">
+        <a href="#" class="btn">Get in Touch</a>
+        <nav class="primary-nav">
+          <ul>
+            <li><a href="#our-beginning">Our beginning</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+          </ul>
+        </nav>
       </div>
     </div>
   </header>
@@ -147,10 +157,13 @@
   </div>
   <footer class="site-footer">
     <div class="wrapper">
-      <p class="site-footer__text">Copyright &copy; 2017 Clear View Escapes. All rights reserved.</p>
-      <a href="#" class="btn btn--orange">Get in Touch</a>
+      <p class="site-footer__text">Copyright &copy; 2016 Clear View Escapes. All rights reserved.</p>
+      <p>
+        <a href="#" class="btn btn--orange">Get in Touch</a>
+      </p>
     </div>
   </footer>
+  <script src="./assets/js/main.js"></script>
 </body>
 
 </html>

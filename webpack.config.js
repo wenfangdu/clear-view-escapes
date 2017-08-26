@@ -1,7 +1,9 @@
 const path = require("path")
 
 module.exports = {
-  entry: {},
+  entry: {
+    main: "./src/dev/js/main.js"
+  },
   output: {
     path: path.resolve(__dirname, "src/assets/js"),
     filename: "[name].js"
@@ -17,5 +19,10 @@ module.exports = {
         exclude: /node_modules/
       }
     ]
+  },
+  resolve: {
+    alias: {
+      vue: "vue/dist/vue.js"
+    }
   }
 }
