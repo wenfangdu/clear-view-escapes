@@ -1,0 +1,10 @@
+.site-footer {
+  background-color: var(--mainBlue);
+  color: #ffffff;
+  padding: 8px 0;
+  text-align: center;
+  &__text {
+    margin-bottom: 16px;
+    font-weight: 200;
+  }
+}
