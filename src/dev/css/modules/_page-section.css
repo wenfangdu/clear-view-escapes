@@ -4,4 +4,10 @@
     background-color: var(--mainBlue);
     color: #ffffff;
   }
+  &--testimonials {
+    background-color: #e0e6ef;
+  }
+  &--no-b-padding {
+    padding-bottom: 0;
+  }
 }

@@ -8,4 +8,7 @@
   &__icon {
     margin: auto auto 9.6px auto;
   }
+  &--blue {
+    color: var(--mainBlue);
+  }
 }
