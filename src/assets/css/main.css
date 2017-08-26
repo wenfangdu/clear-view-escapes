@@ -838,3 +838,15 @@ a {
 .testimonial--last {
     margin-bottom: 0;
   }
+
+.site-footer {
+  background-color: #2f5572;
+  color: #ffffff;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.site-footer__text {
+    margin-bottom: 16px;
+    font-weight: 200;
+  }
