@@ -1,0 +1,58 @@
+.row {
+  @media (--md) {
+    display: flex;
+    &__md-1 {
+      flex-basis: calc(100/12)%;
+    }
+    &__md-2 {
+      flex-basis: calc(100/12*2)%;
+    }
+    &__md-3 {
+      flex-basis: calc(100/12*3)%;
+    }
+    &__md-4 {
+      flex-basis: calc(100/12*4)%;
+    }
+    &__md-5 {
+      flex-basis: calc(100/12*5)%;
+    }
+    &__md-6 {
+      flex-basis: calc(100/12*6)%;
+    }
+    &__md-7 {
+      flex-basis: calc(100/12*7)%;
+    }
+    &__md-8 {
+      flex-basis: calc(100/12*8)%;
+    }
+    &__md-9 {
+      flex-basis: calc(100/12*9)%;
+    }
+    &__md-10 {
+      flex-basis: calc(100/12*10)%;
+    }
+    &__md-11 {
+      flex-basis: calc(100/12*11)%;
+    }
+    &__md-12 {
+      flex-basis: calc(100/12*12)%;
+    }
+  }
+  &--guttered {
+    margin-right: -65px;
+    & > div {
+      padding-right: 65px;
+    }
+    &-small {
+      margin-right: -35px;
+      & > div {
+        padding-right: 35px;
+      }
+    }
+  }
+  &--equal-height {
+    & > div {
+      display: flex;
+    }
+  }
+}

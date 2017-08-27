@@ -3,7 +3,7 @@
   font-weight: 300;
   color: var(--mainBlue);
   /* width: 100%;
-  background-color: var(--bc2); */
+background-color: var(--bc2); */
   @media (--md) {
     font-size: 46px;
   }
@@ -20,6 +20,11 @@
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
+  }
+  &--no-t-margin-from-md {
+    @media (--md) {
+      margin-top: 0;
+    }
   }
   &--small {
     font-size: 19.2px;
