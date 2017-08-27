@@ -8,6 +8,9 @@
   @media (--md) {
     position: fixed;
     background-color: rgba(var(--mainBlue), .3);
+    &--dark {
+      background-color: rgba(var(--mainBlue), .85);
+    }
   }
   &__menu-icon {
     width: 20px;
@@ -78,6 +81,9 @@
     @media (--md) {
       left: auto;
       transform: translateX(0);
+      .site-header--dark & {
+        transform: scale(.56);
+      }
     }
   }
   &__menu-content {

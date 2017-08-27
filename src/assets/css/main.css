@@ -562,6 +562,9 @@ a {
     position: fixed;
     background-color: rgba(47,85,114, .3)
 }
+    .site-header--dark {
+      background-color: rgba(47,85,114, .85);
+    }
   }
 
 .site-header__menu-icon {
@@ -660,6 +663,10 @@ a {
       -webkit-transform: translateX(0);
               transform: translateX(0)
   }
+      .site-header--dark .site-header__logo {
+        -webkit-transform: scale(.56);
+                transform: scale(.56);
+      }
     }
 
 .site-header__menu-content {
@@ -1151,6 +1158,10 @@ background-color: var(--bc2); */
         padding: 12px 0;
         background-color: transparent
     }
+      }
+
+.primary-nav li a.is-current-link {
+        color: #d59541;
       }
 
 .reveal-item {
