@@ -17,16 +17,25 @@
     font-weight: 300;
     color: var(--mainBlue);
     font-size: 38.4px;
+    @media (--md) {
+      font-size: 76.8px;
+    }
   }
   &__subtitle {
     font-weight: 300;
     color: var(--mainBlue);
     font-size: 24px;
+    @media (--md) {
+      font-size: 46.4px;
+    }
   }
   &__description {
     color: #ffffff;
     font-size: 17.6px;
     font-weight: 100;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+    @media (--md) {
+      font-size: 30px;
+    }
   }
 }

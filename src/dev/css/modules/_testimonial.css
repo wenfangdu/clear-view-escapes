@@ -2,6 +2,10 @@
   background-color: rgba(255, 255, 255, 0.8);
   padding: 0 18px 1px 18px;
   margin-bottom: 98px;
+  /* @media (--md) {
+    margin-bottom: 0;
+    padding: 0 29px 1px 29px;
+  } */
   &__photo {
     border-radius: 80px;
     overflow: hidden;

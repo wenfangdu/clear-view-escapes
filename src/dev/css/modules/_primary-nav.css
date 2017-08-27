@@ -1,5 +1,10 @@
 .primary-nav {
   padding-top: 10px;
+  @media (--md) {
+    order: 1px;
+    margin-left: auto;
+    padding-top: 0;
+  }
   & ul {
     margin: 0;
     padding: 0;
@@ -8,8 +13,14 @@
     list-style-type: none;
     display: inline-block;
     padding-right: 7px;
+    @media (--md) {
+      padding-right: 20px;
+    }
     &:last-child {
       padding-right: 0;
+      @media (--md) {
+        padding-right: 20px;
+      }
     }
     & a {
       color: #ffffff;
@@ -19,6 +30,11 @@
       padding: 5px 8px;
       font-size: 12.8px;
       background-color: rgba(var(--mainBlue), .5);
+      @media (--md) {
+        font-size: 16px;
+        padding: 12px 0;
+        background-color: transparent;
+      }
     }
   }
 }

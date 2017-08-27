@@ -9,5 +9,11 @@
   }
   &--large {
     padding: 17.6px 30.4px;
+    @media (--md) {
+      font-size: 20px;
+    }
+  }
+  &--md-order {
+    order: 2;
   }
 }

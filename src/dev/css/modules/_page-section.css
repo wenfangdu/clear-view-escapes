@@ -1,13 +1,24 @@
 .page-section {
   padding: 19.2px 0;
+  @media (--md) {
+    padding: 72px 0;
+  }
   &--blue {
     background-color: var(--mainBlue);
     color: #ffffff;
   }
   &--testimonials {
     background-color: #e0e6ef;
+    @media (--md) {
+      background: #e0e6ef url("../../assets/img/testimonials-bg.jpg") center top
+        no-repeat;
+      background-size: cover;
+    }
   }
   &--no-b-padding {
     padding-bottom: 0;
+    @media (--md) {
+      padding-bottom: 72px;
+    }
   }
 }

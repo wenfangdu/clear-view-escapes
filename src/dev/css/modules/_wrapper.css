@@ -18,10 +18,17 @@
   }
   &--b-margin {
     margin-bottom: 16px;
+    @media (--md) {
+      margin-bottom: 62px;
+    }
   }
   &--no-padding {
     padding-left: 0;
     padding-right: 0;
+    @media (--md) {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
   }
   &--t-padding {
     padding-top: 80px;

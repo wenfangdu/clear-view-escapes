@@ -6,5 +6,9 @@
   &__text {
     margin-bottom: 16px;
     font-weight: 200;
+    @media (--md) {
+      display: inline;
+      margin-right: 22.4px;
+    }
   }
 }

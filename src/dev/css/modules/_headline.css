@@ -4,6 +4,9 @@
   color: var(--mainBlue);
   /* width: 100%;
   background-color: var(--bc2); */
+  @media (--md) {
+    font-size: 46px;
+  }
   &--centered {
     text-align: center;
   }
@@ -20,5 +23,8 @@
   }
   &--small {
     font-size: 19.2px;
+    @media (--md) {
+      font-size: 30px;
+    }
   }
 }

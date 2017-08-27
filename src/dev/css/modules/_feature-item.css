@@ -1,7 +1,14 @@
 .feature-item {
   padding-bottom: 40px;
+  @media (--md) {
+    padding-left: 94px;
+  }
   &__icon {
     margin: 0 auto;
+    @media (--md) {
+      position: absolute;
+      left: 0;
+    }
   }
   &__title {
     font-size: 25.6px;
@@ -9,5 +16,10 @@
     margin-top: 11.2px;
     margin-bottom: 12.8px;
     text-align: center;
+    @media (--md) {
+      text-align: left;
+      margin-top: 16px;
+      font-size: 30px;
+    }
   }
 }
