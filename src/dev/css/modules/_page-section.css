@@ -10,9 +10,10 @@
   &--testimonials {
     background-color: #e0e6ef;
     @media (--md) {
-      background: #e0e6ef url("../../assets/img/testimonials-bg.jpg") center top
-        no-repeat;
-      background-size: cover;
+      &.lazyloaded {
+        background: #e0e6ef url("../../assets/img/testimonials-bg.jpg") center top no-repeat;
+        background-size: cover;
+      }
     }
   }
   &--no-b-padding {

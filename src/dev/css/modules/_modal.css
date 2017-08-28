@@ -7,6 +7,9 @@
   right: 0;
   left: 0;
   transition: all .3s ease-out;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.2);
   &__inner {
     position: absolute;
     width: 100%;
@@ -31,5 +34,10 @@
     &:hover {
       color: var(--mainOrange);
     }
+  }
+  &--is-visible {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
   }
 }

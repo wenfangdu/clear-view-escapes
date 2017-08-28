@@ -9,7 +9,12 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
   <meta name="keywords" content="Travel planning, travel bundles, travel escapes">
   <meta name="description" content="Your clarity. One trip away. We create soul restoring journeys that inspire you to be you">
+  <!-- build:css assets/css/main.css -->
   <link rel="stylesheet" href="assets/css/main.css">
+  <!-- endbuild -->
+  <!-- build:js assets/js/vendor.js -->
+  <script src="assets/js/vendor.js"></script>
+  <!-- endbuild -->
 </head>
 
 <body>
@@ -22,7 +27,7 @@
         <div class="site-header__logo__text icon icon--clear-view-escapes">Clear View Escapes</div>
       </div>
       <div class="site-header__menu-content">
-        <a href="#" class="btn btn--md-order">Get in Touch</a>
+        <a href="#" class="btn btn--md-order open-modal">Get in Touch</a>
         <nav class="primary-nav">
           <ul>
             <li><a href="#our-beginning" id="our-beginning-link">Our beginning</a></li>
@@ -46,7 +51,7 @@
         <div class="large-banner__title">Your clarity</div>
         <div class="large-banner__subtitle">One trip away</div>
         <p class="large-banner__description">We create soul restoring journeys that inspire you to be you.</p>
-        <p><a href="#" class="btn btn--orange btn--large">Get Started Today</a></p>
+        <p><a href="#" class="btn btn--orange btn--large open-modal">Get Started Today</a></p>
       </div>
     </div>
   </div>
@@ -131,7 +136,7 @@
       </div>
     </div>
   </div>
-  <div id="testimonials" class="page-section page-section--testimonials page-section--no-b-padding" data-matching-link="#testimonials-link">
+  <div id="testimonials" class="page-section page-section--testimonials page-section--no-b-padding lazyload" data-matching-link="#testimonials-link">
     <div class="wrapper wrapper--no-padding">
       <h2 class="section-title section-title--blue">
         <div class="icon icon--comment section-title__icon"></div>
@@ -142,7 +147,7 @@
           <div class="row__md-4">
             <div class="testimonial">
               <div class="testimonial__photo">
-                <img alt="Jane Doe" sizes="160px" srcset="./assets/img/testimonial-jane.jpg 160w,./assets/img/testimonial-jane-hi-dpi.jpg 320w">
+                <img alt="Jane Doe" sizes="160px" class="lazyload" data-srcset="./assets/img/testimonial-jane.jpg 160w,./assets/img/testimonial-jane-hi-dpi.jpg 320w">
               </div>
               <h3 class="testimonial__title">Jane Doe</h3>
               <h4 class="testimonial__subtitle">9 Time Escaper</h4>
@@ -156,7 +161,7 @@
           <div class="row__md-4">
             <div class="testimonial">
               <div class="testimonial__photo">
-                <img sizes="160px" srcset="assets/img/testimonial-john.jpg 160w, assets/img/testimonial-john-hi-dpi.jpg 320w" alt="John's testimonial"
+                <img sizes="160px" class="lazyload" data-srcset="assets/img/testimonial-john.jpg 160w, assets/img/testimonial-john-hi-dpi.jpg 320w" alt="John's testimonial"
                 />
               </div>
               <h3 class="testimonial__title">John Smith</h3>
@@ -169,7 +174,7 @@
           <div class="row__md-4">
             <div class="testimonial testimonial--last">
               <div class="testimonial__photo">
-                <img sizes="160px" srcset="./assets/img/testimonial-cat.jpg 160w, ./assets/img/testimonial-cat-hi-dpi.jpg 320w" alt="Cat's testimonial"
+                <img sizes="160px" class="lazyload" data-srcset="./assets/img/testimonial-cat.jpg 160w, ./assets/img/testimonial-cat-hi-dpi.jpg 320w" alt="Cat's testimonial"
                 />
               </div>
               <h2 class="testimonial__title">Cat McKitty</h2>
@@ -187,7 +192,7 @@
     <div class="wrapper">
       <p>
         <div class="site-footer__text">Copyright &copy; 2016 Clear View Escapes. All rights reserved.</div>
-        <a href="#" class="btn btn--orange">Get in Touch</a>
+        <a href="#" class="btn btn--orange open-modal">Get in Touch</a>
       </p>
     </div>
   </footer>
@@ -218,7 +223,9 @@
     </div>
     <div class="modal__close">X</div>
   </div>
+  <!-- build:js assets/js/main.js -->
   <script src="./assets/js/main.js"></script>
+  <!-- endbuild -->
 </body>
 
 </html>

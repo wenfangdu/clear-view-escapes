@@ -2,7 +2,8 @@ const path = require("path")
 
 module.exports = {
   entry: {
-    main: "./src/dev/js/main.js"
+    main: "./src/dev/js/main.js",
+    vendor: "./src/dev/js/vendor.js"
   },
   output: {
     path: path.resolve(__dirname, "src/assets/js"),
