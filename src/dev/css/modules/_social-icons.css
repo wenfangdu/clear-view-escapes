@@ -1,0 +1,21 @@
+.social-icons {
+  text-align: center;
+  &__icon {
+    background-color: var(--mainOrange);
+    display: inline-block;
+    width: 33%;
+    height: 72px;
+    position: relative;
+    margin: 0 5px 5px 5px;
+    @media (--md) {
+      width: 72px;
+      margin: 0 5px;
+    }
+  }
+  & .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

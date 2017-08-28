@@ -11246,9 +11246,7 @@ var _jquery2 = _interopRequireDefault(_jquery);
 
 __webpack_require__(1);
 
-var _jquerySmoothScroll = __webpack_require__(6);
-
-var _jquerySmoothScroll2 = _interopRequireDefault(_jquerySmoothScroll);
+__webpack_require__(6);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 

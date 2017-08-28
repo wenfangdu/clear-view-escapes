@@ -33,4 +33,7 @@
   &--t-padding {
     padding-top: 80px;
   }
+  &--narrow {
+    max-width: 470px;
+  }
 }

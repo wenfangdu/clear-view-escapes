@@ -1,6 +1,6 @@
 import $ from "jquery"
 import "waypoints"
-import moduleName from "jquery-smooth-scroll"
+import "jquery-smooth-scroll"
 
 export default class StickyHeader {
   constructor() {

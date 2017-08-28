@@ -20,4 +20,8 @@
   &--blue {
     color: var(--mainBlue);
   }
+  &--less-margin {
+    margin-bottom: 20.8px;
+    margin-top: 0;
+  }
 }
