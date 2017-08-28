@@ -30,3 +30,34 @@ gulp.task("usemin", ["minifyImg"], function() {
     )
     .pipe(gulp.dest("docs"))
 })
+gulp.task("copyGeneralFiles", ["usemin"], function() {
+  let paths = [
+    "src/**",
+    "!src/index.html",
+    "!src/assets/img",
+    "!src/assets/img/**",
+    "!src/assets/css",
+    "!src/assets/css/**",
+    "!src/assets/js/**",
+    "!src/assets/js/**",
+    "!src/dev",
+    "!src/dev/**"
+  ]
+  return gulp.src(paths).pipe(gulp.dest("docs"))
+})
+gulp.task("viewDist", ["copyGeneralFiles"], function() {
+  browserSync.init({
+    notify: false,
+    open: false,
+    server: {
+      baseDir: "docs"
+    }
+  })
+})
+gulp.task("build", [
+  "delDist",
+  "minifyImg",
+  "usemin",
+  "copyGeneralFiles",
+  "viewDist"
+])
