@@ -6,12 +6,14 @@
   }
   &__text-content {
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 0;
+    transform: translateY(-50%);
+    padding-top: 88px;
     width: 100%;
     text-align: center;
     /* background-color: var(--bc2); */
-    height: 200px;
+    /* height: 200px; */
   }
   &__title {
     font-weight: 300;
