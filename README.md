@@ -2,4 +2,4 @@
 demo3 site
 
 
-Live demo  https://leoncv.github.io/demo3/
+Live demo  https://leoncv.github.io/clear-view
