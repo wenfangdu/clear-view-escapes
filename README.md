@@ -2,4 +2,5 @@
 demo3 site
 
 
-Live demo  https://leoncv.github.io/clear-view
+Live demo  https://dev-fang.github.io/clear-view/
+
