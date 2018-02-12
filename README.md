@@ -1,6 +1,6 @@
 # Clear View Escapes
 
-> Live link https://gamy-twig.surge.sh
+> [Live link](https://cve.surge.sh)
 
 ## Build Setup
 
