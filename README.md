@@ -1,6 +1,6 @@
 # Clear View Escapes
 
-> [Live link](https://cve.surge.sh)
+> [Live link](https://cve.netlify.com/)
 
 ## Build Setup
 
