@@ -1,6 +1,6 @@
 # Clear View Escapes
 
-> [Live link](https://cve.netlify.com/)
+> [Live link](https://cve.netlify.app)
 
 ## Build Setup
 
