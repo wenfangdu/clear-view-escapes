@@ -41,7 +41,7 @@
   "dependencies": {
     "jquery": "^3.3.1",
     "jquery-smooth-scroll": "^2.2.0",
-    "lazysizes": "^4.0.2",
+    "lazysizes": "^5.2.1",
     "normalize.css": "^7.0.0",
     "picturefill": "^3.0.2",
     "waypoints": "^4.0.1"
